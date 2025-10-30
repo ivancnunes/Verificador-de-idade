@@ -1,0 +1,29 @@
+body{
+    background: black;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    margin: auto;
+    padding: 70px;
+    background: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin: 10px;
+}
+#img{
+    height: 220px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+}

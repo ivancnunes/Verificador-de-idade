@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div id="botoes">
+            <p>Informe o ano que você nasceu:
+                <input type="number" name="ano_de_nascimento" id="ano_de_nascimento" placeholder="Digite seu ano de nascimento">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="homem" checked>Masculino
+                <input type="radio" name="sexo" id="mulher">Feminino
+            </p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </div>
+        <div id="resposta" style="text-align:center ;">
+
+        </div>
+    </section>
+    <footer>
+        @Ivanunes_
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
